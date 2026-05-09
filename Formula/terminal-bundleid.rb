@@ -1,4 +1,6 @@
 class TerminalBundleid < Formula
+  disable! date: "2026-05-09", because: "it has been replaced by tockrock/tap/proc-appinfo"
+
   desc "Returns the bundle ID of the terminal app you are running it from"
   homepage "https://github.com/tockrock/terminal-bundleid"
   url "https://github.com/tockrock/terminal-bundleid/releases/download/v0.9.0/terminal-bundleid.tar.gz"
