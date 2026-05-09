@@ -6,7 +6,7 @@ class ActivateNotifier < Formula
 
   depends_on :macos => :sequoia
   depends_on "terminal-notifier"
-  depends_on "tockrock/tap/terminal-bundleid"
+  depends_on "tockrock/tap/proc-appinfo"
 
   def install
     bin.install "activate-notifier"
