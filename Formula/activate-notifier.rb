@@ -1,8 +1,8 @@
 class ActivateNotifier < Formula
   desc "Wrapper around terminal-notifier that auto-injects -activate <bundleId>"
   homepage "https://github.com/tockrock/activate-notifier"
-  url "https://github.com/tockrock/activate-notifier/releases/download/v1.0.0/activate-notifier.tar.gz"
-  sha256 "6991839ab3970e2d4087afdf1656746f538219a537f296d278808560d8a2be4e"
+  url "https://github.com/tockrock/activate-notifier/releases/download/v1.0.1/activate-notifier.tar.gz"
+  sha256 "c680664ae70f28dd8d3876c1363a8e86fd3727d6d3ef624b2f8a27b3af75014e"
 
   depends_on :macos => :sequoia
   depends_on "terminal-notifier"
